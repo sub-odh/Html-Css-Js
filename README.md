@@ -1,1 +1,1 @@
-Html, Css, Js practiced from freecodecamp!
+Learning Html, Css, Js.
