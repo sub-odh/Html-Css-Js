@@ -148,8 +148,9 @@ header {
 
 /* Video section */
 #video-player {
+  background-color: #f2f2f2;
+  padding: 40px 20px;
   text-align: center;
-  padding: 40px 0;
 }
 
 #video-player h2 {
@@ -158,17 +159,18 @@ header {
 }
 
 .video-container {
+  max-width: 50%;
+  margin: 0 auto;
   position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 32%;
 }
 
 .video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
 }
 
 /* Pricing section */
@@ -176,13 +178,16 @@ header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 40px 20px;
+  padding: 20px 10px;
+  margin: 0 5rem;
 }
 
 #pricing div {
   background-color: #fff;
   color: #333;
   padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 4;
   width: calc(33.33% - 20px);
   margin-bottom: 20px;
 }
@@ -224,12 +229,12 @@ header {
 }
 
 /* Contact form section */
-#contact-form {
+#newsletter {
   text-align: center;
   padding: 40px 20px;
 }
 
-#contact-form h2 {
+#newsletter h2 {
   font-size: 28px;
   margin-bottom: 20px;
 }
